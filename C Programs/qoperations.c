@@ -31,11 +31,12 @@ case 4:
 exit(0);
 break;
 default:
-printf("/nEnter valid choice");
+printf("/nEnter valid choice\n");
 }
 }
 return 0;
 }
+
 void enqueue()  
 {  
 int item;  
@@ -56,8 +57,9 @@ else
 rear =rear+1;  
  }  
  queue[rear] = item;  
-printf("\nvalue inserted ");       
+printf("\nvalue inserted \n");       
 }
+
  void dequeue()  
 {  
 int item;   
@@ -78,9 +80,10 @@ else
 {  
 front = front + 1;  
 }  
-printf("\nvalue deleted ");  
+printf("\nvalue deleted \n");  
 }        
-}  
+} 
+ 
 void display()
 {
 int i;
