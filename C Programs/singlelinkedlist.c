@@ -11,6 +11,7 @@ if (start == NULL) {
 int n;
 printf("\nEnter the number of nodes: ");
 scanf("%d", &n);
+
 if (n != 0) {
 int data;
 struct node* newnode;
@@ -210,7 +211,7 @@ case 8:
 case 9:
             exit(1);
             break;
- default:
+default:
             printf("Incorrect Choice\n");
         }
     }
